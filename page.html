@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="java.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Denver Hotel & spa</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+           <img class="navbar-brand" src="" style="width:30px;">
+           <div class="navbar-brand"><b>Denver Hotel & spa</b></div>
+           <button class="navbar-toggler" id="navtog" onclick="toggleButton()" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+              <ion-icon name="menu"></ion-icon>
+           </button>
+           <div class="collapse navbar-collapse" id="mynavbar">
+              <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                 <a class="btn btn-dark" href="#">Hírek</a>
+              </li>
+              <li class="nav-item">
+                 <a class="btn btn-dark" href="#">Link</a>
+              </li>
+              <li>
+                 <div class="dropdown">
+                    <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">
+                    Közösségi oldalaink
+                    </button>
+                    <ul class="dropdown-menu">
+                       <li><div class="dropdown-header">Képek</div></li>
+                       <li><a class="dropdown-item" href="#" rel="noo">Instagram</a></li>
+                       <li><a class="dropdown-item" href="#">Facebook</a></li>
+                       <li><hr class="dropdown-divider"></hr></li>
+                       <li><div class="dropdown-header">Videók</div></li>
+                       <li><a class="dropdown-item" href="#">Youtube</a></li>
+                       <li><a class="dropdown-item" href="#">Tiktok</a></li>
+                       <li><hr class="dropdown-divider"></hr></li>
+                       <li><div class="dropdown-header">Chat</div></li>
+                       <li><a class="dropdown-item" href="#">Discord</a></li>
+                    </ul>
+                    </div>
+                </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Keresés">
+                    <button class="btn btn-dark" type="button"><ion-icon name="search"></ion-icon></button>
+                    </form>
+           </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+                
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="m170302_28118.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                    <h3>Kényelmes szobák</h3>
+                    <p>Praktikus elrendezés, kényelmes ágy</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="minecraft-houses.jpg" alt="Chicago" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                    <h3>Gyönyörű design</h3>
+                    <p>Tervezőink rengeteg időt szántak, gyönyörű szobáinkra </p>
+                    </div> 
+                </div>
+                <div class="carousel-item">
+                    <img src="R.jpg" alt="New York" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                    <h3>Ízletes ételek</h3>
+                    <p>Szakácsaink egész nap készen állnak a rendelések elkészítésére </p>
+                    </div>  
+                </div>
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-4">
+            <h2><b>A Denver Hotel & spa ajánlatai</b></h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-2">
+            <div class="card">
+                <img class="card-img-top" src="minecraft-houses.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">Foglaljon most!</h4>
+                  <p class="card-text">Foglaljon most szobát olcsóbban, 30% KEDVEZMÉNNYEL!</p>
+                  <a href="#" class="btn btn-dark">Foglalok</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-2">
+            <div class="card">
+                <img class="card-img-top" src="m170302_28118.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">Állásajánlatok!</h4>
+                  <p class="card-text">Nyerjen felvételt szállodánkba csupán egy adatlap kitöltésével!</p>
+                  <a href="#" class="btn btn-dark">Érdekel</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-2">
+            <div class="card">
+                <img class="card-img-top" src="R.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">Szabadidős programok</h4>
+                  <p class="card-text">Szabadidős programokkal készülünk gyermekeknek és felnőtteknek</p>
+                  <a href="#" class="btn btn-dark">Érdekel</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</body>
+</html>
